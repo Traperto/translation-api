@@ -16,7 +16,7 @@ Beispiel: Der Key für die Translation `Benutzername` lautet `USER.USERNAME`
 
 ## Aufgabenstellung
 
-Implementiere ein API für ein TranslationTool. Die Auswahl der Programmiersprache ist dir überlassen.
+Implementiere eine API für ein TranslationTool. Die Auswahl der Programmiersprache ist dir überlassen.
 
 Die API hat folgende Aufgaben:
 
@@ -28,7 +28,7 @@ Die API benötigt lediglich einen Endpoint um die Übersetzung durchzuführen. D
 
 ```json	
 {
-  "sourcePath": "/Users/fgrebe/dev/trp/campus/src/client/angular/library/core/assets/i18n/",
+  "sourcePath": "/Users/yourname/dev/trp/campus/src/client/angular/library/core/assets/i18n/",
   "sourceLanguage": "de",
   "targetLanguages": [ "sl", "bg", "en", "pt","cs","tr","hu","da","ro","de","sv","es","fr","hr","it","sk"],
   "translationItems": [
@@ -41,10 +41,10 @@ Die API benötigt lediglich einen Endpoint um die Übersetzung durchzuführen. D
 
 **Erläuterung der Payload**
 
-sourcePath: Hinter diesem Pfad liegen alle TranslationFiles (de.json, en.json, es.json etc..)
-sourceLanguage: Quellsprache
-targetLanguages: Zielsprache
-translationItems: Alle TranslationKeys die Übersetzt werden sollen, mit den dazugehörigen Sprachschnipseln in der Quellsprache.
+- sourcePath: Hinter diesem Pfad liegen alle TranslationFiles (de.json, en.json, es.json etc..)
+- sourceLanguage: Quellsprache
+- targetLanguages: Zielsprache
+- translationItems: Alle TranslationKeys die Übersetzt werden sollen, mit den dazugehörigen Sprachschnipseln in der Quellsprache.
 
 
 
