@@ -1,0 +1,24 @@
+{
+  "DATE": "Datum",
+  "USER": {
+    "USERNAME": "Benutzername",
+    "EMAIL": "E-Mail Adresse",
+    "LOCATION": "Standort"
+  },
+  "ACTION": {
+    "SAVE": "Speichern",
+    "CANCEL": "Abbrechen",
+    "EDIT": "Bearbeiten"
+  },
+  "ERROR": {
+    "PAGE_NOT_FOUND": {
+      "CODE": "404",
+      "HEADLINE": "Diese Seite konnten wir nicht finden.",
+      "DESCRIPTION": "Wir haben überall nach dieser Seite gesucht, konnten diese aber leider nicht finden. Bitte prüfen Sie die URL der Webseite."
+    },
+    "CONNECTION_LOST": {
+      "HEADLINE": "Keine Internetverbindung",
+      "TEXT": "Wir haben festgestellt, das aktuell keine Internertverbindung besteht.<br />Diese ist Voraussetzung für die Verwendung des Systems.<br /><br />Bitte die Internetverbindung prüfen."
+    }
+  }
+}
